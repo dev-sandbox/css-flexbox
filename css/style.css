@@ -1,0 +1,143 @@
+body {
+    background-color: #999999
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.form-container {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.form-row {
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-row label {
+    padding-right: 10px;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+.middle-container {
+    margin-top: 20px; 
+    padding: 20px;
+}
+
+.column-layout {
+    max-width: 1300px;
+    line-height: 1.65;
+    display: flex;
+}
+
+.main-colimn {
+    flex: 3;
+    order: 2;
+}
+
+.sidebar-one {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-two {
+    flex: 1;
+    order: 3;
+}
+
+.call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+}
+
+.call-out {
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 900px) {
+    .call-outs-container {
+        display: flex;
+        /* align-items: stretch; */
+        justify-content: space-between;
+    }
+}
+
+.call-out:nth-child(1) { background-color: #c0dbe2; }
+.call-out:nth-child(2) { background-color: #cdf1c3; }
+.call-out:nth-child(3) { background-color: #ccb9da; }
+
+.fixed-size-container {
+    max-width: 1400px;
+    margin: 10px auto 0 auto;
+    background-color: #ffffff;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fixed-size {
+    width: 150px;
+    height: 100px;
+    background-color: #990b47;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    height: 400px;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #990b47;
+    display: flex;
+}
+
+.center-me {
+    color: #fff;
+    font-size: 50px;
+    margin: auto;
+}
+
+.equal-height-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.first {
+    background-color: #fff;
+    padding: 20px; 
+    flex: 1;
+}
+
+.second {
+    background-color: yellow;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-a {
+    background-color: #c0dbe2;
+    flex: 1;
+}
+
+.second-b {
+    background-color: brown;
+    flex: 1;
+}
+

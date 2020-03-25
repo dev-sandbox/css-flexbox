@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Flexbox</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- https://www.youtube.com/watch?v=k32voqQhODc -->
+    <div>
+        <div class="white form-container">
+            <form action="">
+                <div class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-row">
+                    <label for="favColor">Facorite Color:</label>
+                    <input type="text" id="favColor">
+                </div>
+            </form>
+        </div>
+
+        <div class="middle-container white">
+            <div class="column-layout">
+                <div class="main-colimn">
+                    <h2>Main Col</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                </div>
+
+                <div class="sidebar-one">
+                    <h3>Sidebar One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                </div>
+
+                <div class="sidebar-two">
+                    <h3>Sidebar Two</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="call-outs-container">
+            <div class="call-out">
+                <h4>Feature 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate.</p>
+            </div>
+
+            <div class="call-out">
+                <h4>Feature 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus.</p>
+            </div>
+
+            <div class="call-out">
+                <h4>Feature 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="fixed-size-container">
+            <div class="fixed-size">1</div>
+            <div class="fixed-size">2</div>
+            <div class="fixed-size">3</div>
+            <div class="fixed-size">4</div>
+            <div class="fixed-size">5</div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="banner">
+            <div class="center-me">Center Me</div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="equal-height-container">
+            <div class="first">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum et mauris elementum lacinia. Duis semper tortor et dapibus cursus. Maecenas rhoncus blandit vulputate. Praesent semper tristique augue, vel hendrerit libero lacinia sed. Praesent malesuada orci odio, id efficitur nibh iaculis sed. Fusce ut posuere quam. Maecenas eget urna quis est maximus facilisis. Aenean eget consectetur dui. Nullam eu ex lorem. Ut blandit et urna ut tempus. Vivamus convallis purus nec suscipit vestibulum. Pellentesque vulputate in risus ut faucibus. Etiam faucibus pharetra leo ut venenatis. Mauris efficitur, velit quis tincidunt bibendum, augue sapien fermentum eros, nec malesuada neque dui semper odio. Curabitur tortor massa, dictum ut lectus rhoncus, finibus gravida risus. Aenean quis viverra dolor. </p>
+            </div>
+
+            <div class="second">
+                <div class="second-a">A</div>
+                <div class="second-b">B</div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
